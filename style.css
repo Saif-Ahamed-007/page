@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: bisque;
+    font-family: 'STIX Two Text', serif;
+}
+.container{
+    background-color: cornflowerblue;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.pinfo{
+    height: 140px;
+    width: 120px;
+    border-radius: 50%;
+    border: 5px solid white;
+    float: left;
+}
+.bio{
+    float:left;
+    padding: 30px;
+}
+h1,h2,h3,h4,h5,h6{
+    color: black;
+}
+.contact{
+    float: right;
+    padding: 20px;
+}
+.contact a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+.contact a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.clear{
+    clear: both;
+}
+hr{
+    margin:20px auto;
+    border: 3px solid black;
+    border-bottom: none;
+    width: 100%;
+}
+.p.info{
+    margin: 20px;
+}
+.left{
+    width: 30%;
+    float: left;
+
+}
+.right{
+    float:left;
+    width: 70%;
+}
+.common-hr{
+    border: 1px black solid;
+    margin: 20px auto;
+    border-bottom: none;
+    width: 100%;
+}
+.rleft{
+    float: left;
+    width: 45%;
+
+}
+.rright{
+    float: right;
+    width: 45%;
+
+}
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+ 
+    
+}
+.footer a{
+    text-decoration: none;
+    margin: 10px;
+    color: white;
+}
+.footer p{
+    margin: 20px;
+}
+
